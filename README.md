@@ -14,7 +14,7 @@ Each program in this repository follows a consistent structure, using two loops 
 
 ## Usage
 
-You can explore the programs in this repository to learn and understand different pattern printing techniques. Each program is self-contained, providing comments and explanations within the code to aid comprehension. Simply compile and run the program using a C compiler, such as GCC or Clang, to see the pattern output in the console.
+You can explore the programs in this repository to learn and understand different pattern printing Technics.Simply compile and run the program using a C compiler, such as GCC or Clang, to see the pattern output in the console.
 
 Feel free to modify the programs, experiment with different patterns, or use them as a reference for your own pattern printing tasks.
 
