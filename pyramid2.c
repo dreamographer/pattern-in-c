@@ -3,15 +3,25 @@ void main(){
     int i,j,k,count=4,m=1;
     for ( i = 1; i <= count; i++)
     {
-        for ( j = i; j<=count-1; j++)
+        for ( j = 1; j<=2*count; j++)
         {
+            if (j==count)
+            {
+                printf("0 ");
+                continue;
+            }
+            
+            if (i+j<=count && j<count || j>count && j-i >=4)
+            {
+                printf(" ");
+            }
+            else{
+                printf("*");   
+            }
+            
             printf(" ");
         }
         
-        for ( k = 1; k <=m; k++)
-        {
-                printf("*");   
-        }m+=2;
         printf("\n");
         
     }
