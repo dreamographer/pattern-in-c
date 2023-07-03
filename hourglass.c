@@ -13,7 +13,6 @@ void main(){
             }
         }
         printf("\n");
-        
     }
     
 }
