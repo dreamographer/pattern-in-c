@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(){
+int main(){
     int i,j,k,m=1,l;
     for(i=1;i<=4;i++){
         for ( j =1; j <=4; j++)
@@ -13,7 +13,7 @@ void main(){
 
         }
         printf(" ");
-        l=(20-m)+2;  
+        l=(20-m)+2;       
         for ( k = 1; k<=5-i; k++)
         {
                 printf(" %d",l);
@@ -24,4 +24,5 @@ void main(){
         
         
     }
+    return 0;
 }
