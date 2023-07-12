@@ -8,7 +8,7 @@ void main(){
         {
             if (j<=i && i<=count|| j+i <=count*2&&i>count)
             {
-                printf("*");
+                printf("* ");
             }
         }
         printf("\n");

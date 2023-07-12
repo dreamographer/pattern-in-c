@@ -9,9 +9,7 @@ void main(){
         }
         for(k=1;k<=i;k++){
             printf("***\n");
-            // if(k%3==0){
-            //     printf("\n");
-            // }
+           
         }
         
     } 

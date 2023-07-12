@@ -1,14 +1,9 @@
 #include <stdio.h>
 void main(){
-    int i,j,n=10;
+    int i,j,n=5;
     for ( i = 1; i <=n; i++)
     {
-        if (i%2==0)
-        {
-            continue;
-        }
-        
-        for ( j = 0; j < n*2-1; j++)
+        for ( j = 1; j <=n*2-1; j++)
         {
             if (i+j==n+1||j-i==n-1)
             {

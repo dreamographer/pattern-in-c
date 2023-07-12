@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-    int i,j,k,count=7;
+    int i,j,k,count=3;
     for ( i = 1; i <=count; i++)
     {
         for ( j = 1; j <=(i*i)*2; j++)

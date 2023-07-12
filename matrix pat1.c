@@ -1,7 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 int main() {
-    int i,j,n=4,start=0,size=2*n-1,end=size-1;
-    int a[50][50];
+    int i,j,n,start=0,size,end;
+    scanf("%d",&n);
+    size=(2*n)-1;
+    end=size-1;
+    int a[size][size];
     while (n!=0)
     {
         for ( i = start; i <=end; i++)
@@ -17,12 +23,10 @@ int main() {
             }
             
         }
-        start++;
-        end--;
-        n--;
+        ++start;
+        --end;
+        --n;
     }
-    //printing the pattern
-    printf("The Pattern is:\n");
     for(i=0 ; i<size; i++){
         for(j=0 ; j<size; j++){
 
